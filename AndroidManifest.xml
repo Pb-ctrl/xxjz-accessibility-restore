@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.local.xxjzrestore" android:versionCode="2" android:versionName="1.0.1">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="35"/>
+    <application android:label="小星记账无障碍恢复" android:allowBackup="false">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposedminversion" android:value="82"/>
+        <meta-data android:name="xposeddescription" android:value="仅为小星记账恢复其自动记账无障碍服务"/>
+        <meta-data android:name="xposedscope" android:value="com.cxincx.xxjz"/>
+    </application>
+</manifest>
